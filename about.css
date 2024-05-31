@@ -1,0 +1,45 @@
+#about {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box; /* Include padding and border in width */
+    overflow: hidden; /* Hide any potential overflow */
+}
+
+.yellowClr {
+    color: #ffc800;
+}
+
+#about h1 {
+    color: red;
+    margin: 20px 0;
+    font-size: 32px;
+}
+
+#aboutbar {
+    background: #00b8ff;
+    width: 70px;
+    height: 3px;
+    margin: 10px auto;
+}
+
+#about p {
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+#aboutImg {
+    width: 60%;
+    height: auto;
+    max-width: 100%; /* Adjusted max-width to fit properly */
+    display: block;
+    margin: 20px auto;
+}
+
+#arrowImg {
+    transform: rotate(90deg);
+    width: 40px;
+    cursor: pointer;
+}
